@@ -1,0 +1,69 @@
+/*****************************************************
+ * Magic Mirror                                      *
+ * Custom CSS                                        *
+ *                                                   *
+ * By Michael Teeuw http://michaelteeuw.nl           *
+ * MIT Licensed.                                     *
+ *                                                   *
+ * Add any custom CSS below.                         *
+ * Changes to this files will be ignored by GIT. *
+ *****************************************************/
+
+ body {
+ 	
+ }
+
+.region.top.center {
+  text-align: left;
+}
+
+.wi.dimmed.wi-sunset {
+color: orange;
+}
+.wi.dimmed.wi-sunrise {
+color: yellow;
+}
+.wi-day-sunny {
+color: yellow;
+}
+.wi-day-cloudy {
+color: yellow;
+}
+.wi-rain {
+color: blue;
+}
+.wi-thunderstorm {
+color: blue;
+}
+.wi-snow {
+color: white;
+}
+.wi-fog {
+color: white;
+}
+.wi-night-clear {
+color: white;
+}
+.wi-night-cloudy {
+color: grey;
+}
+.wi-night-showers {
+color: blue;
+}
+.wi-night-rain {
+color: blue;
+}
+.wi-thunderstorm {
+color: yelow;
+}	
+.wi-night-snow {
+color: white;
+}
+.wi-night-alt-cloudy-windy {
+color: grey;
+}
+
+.ns-alert span.light[style],
+.ns-alert span.thin[style] {
+    font-size: 60px !important;
+}
