@@ -29,3 +29,4 @@ cd MMM-ModuleScheduler
 npm install --production
 cd ..
 git clone https://github.com/shbatm/MMM-KeyBindings
+git clone https://github.com/lawrence-jeff/MMM-StopwatchTimer
