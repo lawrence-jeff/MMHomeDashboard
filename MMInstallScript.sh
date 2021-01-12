@@ -1,5 +1,5 @@
-sudo apt install git -y
-sudo apt install curl -y 
+sudo apt install -y git
+sudo apt install -y curl
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 sudo apt install -y nodejs
 git clone https://github.com/MichMich/MagicMirror
