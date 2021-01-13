@@ -323,6 +323,7 @@ var config =
       config: {
         source: 'firetv',
         slideInterval: 180000,
+        filter: "grayscale(0.1) brightness(0.4)",
         maximumEntries: 30
       }
     },
