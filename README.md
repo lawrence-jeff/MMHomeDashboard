@@ -17,4 +17,7 @@ Features
 
 
 # Installing
-The script to install Magic Mirror and the modules is https://raw.githubusercontent.com/lawrence-jeff/MMHomeDashboard/master/MMInstallScript.sh
+* The script to install Magic Mirror and the modules is https://raw.githubusercontent.com/lawrence-jeff/MMHomeDashboard/master/MMInstallScript.sh
+* Grab the config.js found in the config folder and copy to MagicMirror/config
+* The config has variables embedded anything with ${VALUE} needs to be replaced with the correct password/APIKey/etc
+* npm start from MagicMirror directory should fire it up
