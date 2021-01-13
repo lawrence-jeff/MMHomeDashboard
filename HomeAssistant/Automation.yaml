@@ -1,0 +1,29 @@
+- id: '1609051419629'
+  alias: Driveway Person Notification
+  description: 'When Frigate detects someone, send MM an alert with the pic, then switch to video view'
+  trigger:
+  - platform: mqtt
+    topic: frigate/events
+  condition:
+  - condition: template
+    value_template: '{{ trigger.payload_json[''after''][''label''] == ''person'' }}'
+  action:
+  - service: rest_command.mm_switch_carousel
+    data:
+      slide: video
+  - delay: 00:00:01
+  - service: rest_command.mm_alert_sound
+    data:
+      sound: storedoor.wav
+  - delay: 00:00:01
+  - service: rest_command.mm_alert_pic
+    data:
+      title: Camera Detection
+      message: Person Detected
+      imageurl: http://192.168.0.124:5000/events/{{trigger.payload_json["after"]["id"]}}/snapshot.jpg
+      timer: 5000
+  - delay: 00:05:00
+  - service: rest_command.mm_switch_carousel
+    data:
+      slide: home
+  mode: single
