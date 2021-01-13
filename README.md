@@ -25,6 +25,6 @@ Features
 
 # Integrating with Home Assistant
 Most of my HA integrations are focused on HA controlling the mirror more than the mirror displaying HA information.
-You can create services in HA that can be called to do various things
+* You can create services in HA that can be called to do various things
 Example sections in https://github.com/lawrence-jeff/MMHomeDashboard/blob/master/HomeAssistant/Configuration.yaml
-Example automation included that leverages these services to create a picture alert and change the MM screen to a camera view
+* Example automation included that leverages these services to create a picture alert and change the MM screen to a camera view
