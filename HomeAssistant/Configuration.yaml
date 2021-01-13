@@ -1,0 +1,21 @@
+rest_command:
+    mm_alert_nopic:
+        url: "http://192.168.0.108:8080/api/module/alert/showalert"
+        method: POST
+        payload: '{"title": "{{ title }}", "message": "{{ message }}",  "timer": 10000 }'
+        content_type:  'application/json; charset=utf-8'
+    mm_alert_pic:
+        url: "http://192.168.0.108:8080/api/module/alert/showalert"
+        method: POST
+        payload: '{"title": "{{ title }}", "message": "{{ message }}", "imageUrl": "{{ imageurl }}", "imageHeight" : 400 , "timer": "{{ timer }}" }'
+        content_type:  'application/json; charset=utf-8'
+    mm_alert_sound:
+        url: "http://192.168.0.108:8080/api/notification/PLAY_SOUND"
+        method: POST
+        payload: '{"sound": "{{ sound }}"}'
+        content_type:  'application/json; charset=utf-8'
+    mm_switch_carousel:
+        url: "http://192.168.0.108:8080/api/notification/CAROUSEL_GOTO"
+        method: POST
+        payload: '{"slide": "{{ slide }}"}'
+        content_type:  'application/json; charset=utf-8'
