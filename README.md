@@ -14,3 +14,7 @@ Features
 * Rotating screen support driven by home assistant (which is optionally driven by Alexa commands to "show screen XXX"
 
 <img src="https://github.com/lawrence-jeff/MMHomeDashboard/blob/master/image.png" width="750"><br>
+
+
+# Installing
+The script to install Magic Mirror and the modules is https://raw.githubusercontent.com/lawrence-jeff/MMHomeDashboard/master/MMInstallScript.sh
