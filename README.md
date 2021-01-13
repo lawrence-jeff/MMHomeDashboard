@@ -1,5 +1,5 @@
 # MMHomeDashboard
-Magic Mirror based home dashboard. This uses the magic mirror software but is setup as a home dashboard.
+Magic Mirror based home dashboard with Home Assistant and Alexa control. This uses the magic mirror software but is setup as a home dashboard.
 Features 
 * Rotating screens (home screen, external camera view screen, countdown timer tied to Alexa)
 * Calendar view
