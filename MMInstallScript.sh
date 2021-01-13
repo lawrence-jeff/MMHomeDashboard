@@ -19,6 +19,7 @@ cd ..
 git clone --depth=1 https://github.com/eouia/MMM-CalendarExt2
 cd MMM-CalendarExt2
 npm install
+cd ..
 git clone https://github.com/lawrence-jeff/MMM-OClock
 git clone https://github.com/cbrooker/MMM-Todoist.git
 cd MMM-Todoist
